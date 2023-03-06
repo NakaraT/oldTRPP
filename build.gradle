@@ -3,20 +3,20 @@ plugins {
   id 'io.spring.dependency-management' version '1.1.0'
   id 'java'
 }
-#T
+#V
 apply plugin: 'java'
-#A
+#Y
 group = 'org.springframework.samples'
 version = '3.0.0'
 sourceCompatibility = '17'
-#R
+#A
 repositories {
   mavenCentral()
 }
-#A
+#C
 ext.webjarsFontawesomeVersion = "4.7.0"
 ext.webjarsBootstrapVersion = "5.1.3"
-#K
+#E
 dependencies {
   implementation 'org.springframework.boot:spring-boot-starter-cache'
   implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
@@ -35,8 +35,8 @@ dependencies {
   developmentOnly 'org.springframework.boot:spring-boot-devtools'
   testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
-#A
+#S
 tasks.named('test') {
   useJUnitPlatform()
 }
-#NOV
+#LAV
